@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica;
+}
+
+.container {
+    border: 2px dotted black;
+    height: 200px;
+    width: 100%;
+}
+
+.container p {
+    margin: 60px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.draggable_items {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    cursor: all-scroll;
+}
+
+.draggable_items.dragging {
+    background-color: #27ae60;
+}
